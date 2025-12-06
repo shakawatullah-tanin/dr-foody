@@ -15,7 +15,7 @@ const MenuBar = () => {
 
            <div>
             <ul>
-                <li className='flex items-center gap-5'>
+                <li className='flex text-lg items-center gap-5'>
                     <NavLink to={"/"}>Home</NavLink>
                     <NavLink to={"/"}>About us</NavLink>
                     <NavLink to={"/"}>Products</NavLink>
