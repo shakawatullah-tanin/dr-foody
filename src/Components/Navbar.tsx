@@ -1,4 +1,3 @@
-import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { TbPhoneCall } from "react-icons/tb";
 import { AiOutlineMail } from "react-icons/ai";
@@ -8,7 +7,7 @@ import { PiHandbagSimple } from "react-icons/pi";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center mx-20 my-4  ">
+    <div className="md:flex  hidden justify-between items-center mx-20 my-4  ">
       <div className="flex gap-5 items-center">
         <div className=" flex gap-2 items-center ">
           <IoLocationOutline color="green" size={20}></IoLocationOutline>Town

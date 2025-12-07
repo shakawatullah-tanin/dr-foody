@@ -8,3 +8,20 @@ body {
 
 
 }
+.parallax {
+  background-image: url("../public/Banner.jpg");
+
+
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.article{
+
+  margin-top: 500px;
+
+}
